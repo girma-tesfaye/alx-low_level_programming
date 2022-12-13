@@ -17,6 +17,5 @@ int main(void)
 	{
 		putchar(string[i]);
 	}
-	printf("\n");
 	return (0);
 }
