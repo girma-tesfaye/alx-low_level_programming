@@ -14,8 +14,7 @@ int main(void)
 	int length = strlen(string);
 
 	for (i = 0; i <= length; i++)
-	{
 		putchar(string[i]);
-	}
+	putchar("\n");
 	return (0);
 }
