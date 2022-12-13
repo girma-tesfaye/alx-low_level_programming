@@ -9,12 +9,13 @@
 
 int main(void)
 {
-	char str[8] = "_putchar";
+	char *string = "_putchar";
 	int i;
+	int length = strlen(string);
 
-	for (i = 0; i <= strlen(str); i++)
+	for (i = 0; i <= length; i++)
 	{
-		putchar(str[i]);
+		putchar(string[i]);
 	}
 	printf("\n");
 	return (0);
