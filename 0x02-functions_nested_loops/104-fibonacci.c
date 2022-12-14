@@ -6,7 +6,7 @@
  * Return: should be 0 upon success
  */
 
-int main(0)
+int main(void)
 {
 	int n;
 	long int f[98];
@@ -23,4 +23,5 @@ int main(0)
 		else
 			printf("%ld, ", f[n]);
 	}
+	return (0);
 }
