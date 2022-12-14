@@ -17,12 +17,11 @@ int main(void)
 	for (n = 2; n <= 50; n++)
 	{
 		fib[n] = fib[n - 1] + fib[n - 2];
+
 		if (fib[n] % 2 == 0 && fib[n] <= 4000000)
-		{
 			sum += fib[n];
-			printf("%ld\n", sum);
-		}
 	}
+	printf("%ld\n", sum);
 	return (0);
 }
 
