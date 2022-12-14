@@ -10,15 +10,15 @@ int main(void)
 {
 	int n;
 
-	long long int fib[50];
+	long int fib[50];
 
 	fib[0] = 0;
 	fib[1] = 1;
 
-	for (n = 2; n < 52; n++)
+	for (n = 2; n < 50; n++)
 	{
 		fib[n] = fib[n - 1] + fib[n - 2];
-			printf("%lli, ", fib[n]);
+			printf("%li, ", fib[n]);
 	}
 	return (0);
 }
