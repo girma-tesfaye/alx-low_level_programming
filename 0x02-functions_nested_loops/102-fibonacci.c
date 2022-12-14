@@ -20,8 +20,8 @@ int main(void)
 		fibonacci[n] = fibonacci[n - 1] + fibonacci[n - 2];
 	
 		if ((fibonacci[n] % 2) == 0 && fibonacci[n] < 4000000)
-			sum += fibonacci[n];
+			res += fibonacci[n];
 	}
-	printf("%ld\n", sum);
+	printf("%ld\n", res);
 	return (0);
 }
