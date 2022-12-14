@@ -15,11 +15,11 @@ int main(void)
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
 
-	for (n = 2; n < 50; n++)
+	for (n = 1; n < 50; n++)
 	{
 		fibonacci[n] = fibonacci[n - 1] + fibonacci[n - 2];
 
-		if ((fibonacci[n] % 2) == 0 && fibonacci[n] < 2500000000)
+		if ((fibonacci[n] % 2) == 0 && fibonacci[n] < 30000000000)
 			printf("%ld, ", fibonacci[n]);
 	}
 	return (0);
