@@ -19,8 +19,8 @@ int main(void)
 	{
 		fibonacci[n] = fibonacci[n - 1] + fibonacci[n - 2];
 
-		if ((fibonacci[n] % 2) == 0 && fibonacci[n] < 4000000)
-			printf("%lld, ", fibonacci[n]);
+		if ((fibonacci[n] % 2) == 0 && fibonacci[n] < 2500000000)
+			printf("%ld, ", fibonacci[n]);
 	}
 	return (0);
 }
