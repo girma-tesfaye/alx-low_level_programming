@@ -12,13 +12,18 @@ int main(void)
 
 	long int fib[50];
 
-	fib[0] = 0;
-	fib[1] = 1;
+	fib[0] = 1;
+	fib[1] = 2;
 
-	for (n = 2; n < 50; n++)
+	printf("%ld, %ld, ", fib[0], fib[1]);
+
+	for (n = 2; n < 49; n++)
 	{
 		fib[n] = fib[n - 1] + fib[n - 2];
-			printf("%li, ", fib[n]);
+		if (n == 49)
+			printf("%ld\n", fib[n]);
+		else
+			printf("%ld, ", fib[n]);
 	}
 	return (0);
 }
