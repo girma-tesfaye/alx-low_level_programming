@@ -14,7 +14,9 @@ int main(void)
 	f[0] = 1;
 	f[1] = 2;
 
-	for (n = 2; n <= 97; n++)
+	printf("%ld, %ld, ", f[0], f[1]);
+
+	for (n = 2; n < 98; n++)
 	{
 		f[n] = f[n - 1] + f[n - 2];
 
