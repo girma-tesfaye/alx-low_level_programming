@@ -9,8 +9,7 @@
 int main(void)
 {
 	int n;
-	long int fib[n];
-	long int sum;
+	long int sum, fib[50];
 
 	fib[0] = 1;
 	fib[1] = 2;
@@ -18,7 +17,7 @@ int main(void)
 
 	for (n = 2; n <= 50; n++)
 	{
-		if (fib[n] % 2 == 0)
+		if (fib[n] % 2 == 0 && fib[n] <= 4000000)
 		{
 			sum += fib[n];
 			printf("%ld\n", sum);
