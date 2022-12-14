@@ -18,7 +18,7 @@ int main(void)
 	for (n = 2; n < 50; n++)
 	{
 		fibonacci[n] = fibonacci[n - 1] + fibonacci[n - 2];
-	
+
 		if ((fibonacci[n] % 2) == 0 && fibonacci[n] < 4000000)
 			res += fibonacci[n];
 	}
