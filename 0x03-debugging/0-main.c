@@ -2,14 +2,16 @@
 
 /**
  * main - entry
- * @i: parameter
+ * @i: paramer
  * Return: 0
  */
 
-void main(int i)
+int main(void)
 {
-	i = 0;
+	int i;
 
+	i = 0;
 	positive_or_negative(i);
+
 	return (0);
 }
