@@ -9,7 +9,7 @@ int main(void)
 {
 	int n = 1;
 
-	while (n <= 100)
+	while (n < 100)
 	{
 		if (n % 3 == 0)
 		{
@@ -28,6 +28,6 @@ int main(void)
 		}
 		n++;
 	}
-	printf("\n");
+	printf("Buzz\n");
 	return (0);
 }
