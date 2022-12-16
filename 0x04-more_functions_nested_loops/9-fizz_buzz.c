@@ -30,5 +30,6 @@ int main(void)
 		n++;
 	}
 	printf("Buzz\n");
+
 	return (0);
 }
