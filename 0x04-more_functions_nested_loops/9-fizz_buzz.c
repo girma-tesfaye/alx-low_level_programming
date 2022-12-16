@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Rerurn: 0
+ * Rerurn: Always 0
  */
 
 int main(void)
