@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int n = 1;
+	int n;
 
-	while (n < 100)
+	for (n = 1; n < 100; n++)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
 			printf("FizzBuzz ");
@@ -20,7 +20,6 @@ int main(void)
 			printf("Buzz ");
 		else
 			printf("%d ", n);
-		n++;
 	}
 	printf("Buzz\n");
 
