@@ -8,7 +8,6 @@
 
 void print_diagonal(int n)
 {
-	char diag_line = 92, diag_space = 32;
 	int i = 1;
 
 	while (i <= n)
@@ -20,8 +19,8 @@ void print_diagonal(int n)
 		else
 		{
 			for (i = 1; i <= n; i++)
-				_putchar(diag_space);
-			_putchar(diag_line);
+				_putchar(' ');
+			_putchar(92);
 		}
 		i++;
 		_putchar('\n');
