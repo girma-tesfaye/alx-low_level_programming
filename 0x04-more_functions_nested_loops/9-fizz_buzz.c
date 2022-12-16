@@ -22,7 +22,7 @@ int main(void)
 			printf("%d ", n);
 		n++;
 	}
-	printf("Buzz");
+	printf("Buzz\n");
 
 	return (0);
 }
