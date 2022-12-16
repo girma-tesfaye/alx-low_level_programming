@@ -1,8 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
  * main - entry point
- *
  * Rerurn: Always 0
  */
 
